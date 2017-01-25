@@ -28,4 +28,7 @@
     	<version>1.0.2.Final-redhat-3</version>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>${project.artifactId}</finalName>
+  </build>
 </project>

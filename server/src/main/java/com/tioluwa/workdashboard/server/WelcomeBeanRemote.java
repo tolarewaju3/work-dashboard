@@ -1,9 +1,9 @@
 package com.tioluwa.workdashboard.server;
 
-import javax.ejb.Remote;
+import javax.ejb.Local;
 
-@Remote
-public interface TiOluwaBeanRemote {
+@Local
+public interface WelcomeBeanRemote {
 	
 	public String sayHello();
 

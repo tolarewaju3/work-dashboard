@@ -23,6 +23,11 @@
     	<artifactId>jboss-servlet-api_3.0_spec</artifactId>
     	<version>1.0.2.Final-redhat-2</version>
     </dependency>
+    <dependency>
+    	<groupId>com.tioluwa</groupId>
+    	<artifactId>work-dashboard-server</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>${project.artifactId}</finalName>
